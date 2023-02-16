@@ -108,6 +108,26 @@ body {
     
 }
 
+.contact-container {
+    background: #7478da;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact-content {
+    color: #F1F1F1;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    margin: auto;
+}
+
 .footer-container {
     background: #1b1b27;
     display: flex;
@@ -259,6 +279,11 @@ section h4 {
 section p {
     font-family: 'Cabin', sans-serif;
     line-height: 1.5;
+}
+
+.contact-content h2 {
+    display: flexbox;
+    margin: 0%;
 }
 
 
